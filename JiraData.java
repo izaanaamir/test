@@ -117,7 +117,6 @@ public class JiraData {
                 }
                 conn.disconnect();
             }
-
             JSONtoCSVParser(IssuesDataJSON);
 
         } catch (Exception ex) {
